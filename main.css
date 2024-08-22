@@ -1,0 +1,501 @@
+/* styles.css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Merienda", cursive;
+    font-family: "Roboto Slab", serif;
+    font-family: "Lato", sans-serif;
+    font-family: "Ojuju", sans-serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Oswald", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Sarala", sans-serif;
+    font-family: "Mukta", sans-serif;
+    font-family: "Bakbak One", sans-serif;
+    font-family: "Tiro Devanagari Sanskrit", serif;
+    font-family: "Tiro Devanagari Hindi", serif;
+    font-family: "Noto Serif Devanagari", serif;
+    font-family: "Noto Sans Devanagari", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #8cabe5;
+    letter-spacing: 0.5px;
+    margin-left: 12px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: orange;
+    letter-spacing: 0.5px;
+    margin-left: 12px;
+    text-decoration: underline solid 1px;
+}
+
+.navbar-brand img {
+    width: 220px;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.recent-post h1 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 55px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.recent-post h1 span {
+    font-family: "Roboto Slab", serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 55px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: chocolate;
+}
+
+
+.recent-post .card {
+    border-radius: 20px;
+    border: none;
+}
+
+#recent-post .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+
+}
+
+#recent-post .card img:hover {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    border: solid 3px #a46df7;
+}
+
+#recent-post .card span {
+    font-family: 'sans-serif';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: 5px 0px;
+    letter-spacing: 0.5px;
+    color: crimson;
+}
+
+#recent-post .card h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 5px 0px;
+    letter-spacing: 0.5px;
+    color: #262626;
+    text-align: left, justify;
+}
+
+#recent-post .card h5:hover {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 5px 0px;
+    letter-spacing: 0.5px;
+    color: brown;
+    text-align: left, justify;
+}
+
+#recent-post .card p {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: 0px 10px;
+    letter-spacing: 0.2px;
+    color: #262626;
+    text-align: justify;
+}
+
+#recent-post .btn {
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 10px 35px;
+    letter-spacing: 0.3px;
+    color: #262626;
+    border-radius: 30px;
+}
+
+#recent-post .btn:hover {
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 10px 35px;
+    letter-spacing: 0.3px;
+    color: #fff;
+    background: brown;
+    border-radius: 30px;
+}
+
+#similar-posts .header h1 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 55px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+#similar-posts h5 {
+    font-family: "poppins", serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+#similar-posts h5:hover {
+    font-family: "poppins", serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: orange;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 1.5rem;
+    text-decoration: underline 0.5px #fff;
+    cursor: pointer;
+}
+
+
+#all-posts h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 55px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#all-posts h1 span {
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 55px;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #dc5314;
+}
+
+#all-posts .card {
+    border-radius: 20px;
+}
+
+#all-posts .card:hover {
+    background-color: lightgrey;
+    border-radius: 30px;
+
+}
+
+#all-posts .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+
+}
+
+#all-posts .card img:hover {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    color: gray;
+    border: solid 2px #fff;
+
+}
+
+#all-posts .card span {
+    font-family: 'sans-serif';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: 5px 0px;
+    letter-spacing: 0.5px;
+    color: crimson;
+}
+
+#all-posts .card h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 5px 0px;
+    letter-spacing: 0.3px;
+    color: #262626;
+}
+
+#all-posts .card h5:hover {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 5px 0px;
+    letter-spacing: 0.3px;
+    color: royalblue;
+    text-decoration: underline solid 1px white;
+}
+
+#all-posts .card p {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: 0px 5px;
+    letter-spacing: 0.5px;
+    color: #262626;
+    text-align: justify;
+}
+
+.all-posts .sider img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.all-posts .sider h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #262626;
+    line-height: ;
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+    word-spacing: 5px;
+}
+
+.all-posts .sider h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #262626;
+    line-height: ;
+    text-decoration: none;
+    text-align: left;
+    list-style-type: none;
+}
+
+.all-posts .sider h4:hover {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: firebrick;
+    text-decoration: underline solid 0.1px;
+    text-align: left;
+    list-style-type: none;
+}
+
+
+.all-posts .sider .icons span {
+    font-family: "Merienda", cursive;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 12px;
+    color: #262626;
+    letter-spacing: 0.5px;
+
+}
+
+#all-blogs h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 45px;
+    text-align: left;
+    letter-spacing: 0.5px;
+    margin-left: 20px;
+}
+
+#all-blogs h1 span {
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 45px;
+    text-align: left;
+    letter-spacing: 0.5px;
+    margin-left: 20px;
+    color: darkolivegreen;
+}
+
+#all-blogs .card {
+    border-radius: 20px;
+}
+
+#all-blogs .card:hover {
+    background-color: #dfe5e8;
+    border-radius: 30px;
+}
+
+#all-blogs .card img {
+    width: 100%;
+    height: 185px;
+    border-radius: 20px;
+
+}
+
+#all-blogs .card img:hover {
+    width: 100%;
+    height: 190px;
+    border-radius: 30px;
+    border: solid 3px white;
+
+}
+
+#all-blogs .card span {
+    font-family: 'sans-serif';
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: 5px 0px;
+    letter-spacing: 0.5px;
+    color: crimson;
+}
+
+#all-blogs .card h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 5px 5px;
+    letter-spacing: 0.2px;
+    color: #262626
+}
+
+#all-blogs .card h5:hover {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 5px 5px;
+    letter-spacing: 0.2px;
+    color: #a014dc;
+    text-decoration: underline solid 1px #6946de;
+
+}
+
+#all-blogs .card p {
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: 0px;
+    letter-spacing: 0.3px;
+    color: #262626;
+}
+
+
+.contact h1 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 65px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.about-us h1 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 65px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.disclaimer h1 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 55px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.privacy-policy h1 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 55px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+
+.footer h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.footer p {
+    font-family: "Roboto Slab", serif;
+    font-weight: 200;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0.7px;
+}
+
+.footer span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: white;
+    text-align: left;
+}
+
+.footer2 span {
+    font-family: 'merienda', 'Poppins', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: white;
+    text-align: ;
+}
